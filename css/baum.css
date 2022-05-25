@@ -1,14 +1,15 @@
-*{
+* {
     margin: 0;
     box-sizing: 0;
-    
-    
+
+
 }
 
-body{
+body {
+
     width: 100%;
-   
-    /Users/ferhatdursun/Desktop/Clarusway/FST01/FLEX-Grid_Baum/index.html
+
+
 }
 
 
@@ -16,38 +17,38 @@ body{
 
     gap: 5px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(10,1fr);
-    max-height:1000px;
-    
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+
+
 }
 
 .foto {
-    
+
     grid-row-start: 1;
     grid-row-end: 5;
     grid-column-start: 1;
-    grid-column-end:5;
-    
-    
+    grid-column-end: 5;
+
+
 }
 
-img{
-    
+img {
+
     width: 100%;
-     height: 385px;
-     
+    height: 38vh;
+
 }
 
 
-.nav{
+.nav {
     font-size: 1rem;
     display: flex;
     grid-row-start: 5;
     grid-row-end: 6;
     grid-column-start: 1;
-    grid-column-end:5;
-    background-color: rgb(68,174,255);
+    grid-column-end: 5;
+    background-color: rgb(68, 174, 255);
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -64,10 +65,10 @@ img{
     grid-row-start: 6;
     grid-row-end: 10;
     grid-column-start: 1;
-    grid-column-end:2;   
+    grid-column-end: 2;
     font-size: 1rem;
     border-right: 5px solid white;
-    background-color: rgb(240,230,140);
+    background-color: rgb(240, 230, 140);
     font-size: x-large;
 }
 
@@ -82,19 +83,19 @@ img{
     justify-content: center;
 } */
 
-.lorem_1a{
+.lorem_1a {
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
-    background-color: rgb(240,128,127);
-    
+    background-color: rgb(240, 128, 127);
+
     grid-row-start: 6;
     grid-row-end: 10;
     grid-column-start: 2;
-    grid-column-end:5;
-    
+    grid-column-end: 5;
+
 }
 
 .lorem_2 {
@@ -103,11 +104,10 @@ img{
     text-align: center;
     justify-content: center;
     grid-row-start: 10;
-    grid-row-end:11;
+    grid-row-end: 11;
     grid-column-start: 1;
-    grid-column-end:5;
-    padding: 3rem;
-    background-color: rgb(135,206,250);
+    grid-column-end: 5;
+
+    background-color: rgb(135, 206, 250);
     font-size: x-large;
 }
-
